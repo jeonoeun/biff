@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaPlus } from "react-icons/fa";
 
 const News = () => {
   return (
@@ -8,11 +9,9 @@ const News = () => {
         <div className="left-box">
           <div className="title-wrapper">
             <h4 className="box-title">공지사항</h4>
-            <span className="more-btn">
-              <Link to="/page05">
-                <i className="xi-plus"></i>
-              </Link>
-            </span>
+            <Link className="more-btn" to="/page05">
+              <FaPlus size={12} />
+            </Link>
           </div>
           <ul>
             <li>
@@ -36,11 +35,9 @@ const News = () => {
         <div className="right-box">
           <div className="title-wrapper">
             <h4 className="box-title">BIFF 뉴스</h4>
-            <span className="more-btn">
-              <Link to="/page05">
-                <i className="xi-plus"></i>
-              </Link>
-            </span>
+            <Link className="more-btn" to="/page05">
+              <FaPlus size={12} />
+            </Link>
           </div>
           <ul>
             <li>

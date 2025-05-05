@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaSearch } from "react-icons/fa";
 
 const Page05 = () => {
   return (
@@ -10,7 +11,7 @@ const Page05 = () => {
         <div className="search-box">
           <input type="text" />
           <button className="search-btn">
-            <i className="xi-search"></i>
+            <FaSearch />
           </button>
         </div>
         <ul className="form-listBox">

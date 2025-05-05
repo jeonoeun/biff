@@ -5,6 +5,7 @@ import "swiper/css/pagination";
 import SwiperCore, { Navigation } from "swiper";
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Program = ({ item }) => {
   SwiperCore.use([Navigation]);
@@ -34,10 +35,10 @@ const Program = ({ item }) => {
         </div>
         <div className="swiper-button">
           <button ref={navigationPrevRef} className="prev">
-            <i className="xi-angle-left-min"></i>
+            <IoIosArrowBack size={18} />
           </button>
           <button ref={navigationNextRef} className="next">
-            <i className="xi-angle-right-min"></i>
+            <IoIosArrowForward size={18} />
           </button>
         </div>
       </div>
