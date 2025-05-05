@@ -1,7 +1,3 @@
-// * {
-//   outline: 1px solid #d82f36;
-// }
-
 body {
   background-color: #111;
   overflow-x: hidden;
@@ -337,6 +333,9 @@ body {
         width: 35px;
         font-weight: 900;
         transition: 0.3s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         &:hover {
           background-color: rgb(189, 189, 189);
@@ -410,6 +409,11 @@ body {
       }
 
       .more-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 24px;
+        aspect-ratio: 1;
         color: #222;
         background-color: #ddd;
         border-radius: 50%;
